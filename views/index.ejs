@@ -1,0 +1,32 @@
+<!-- File Name: index.ejs
+    Student Name: Sandy Shang
+    StudentID: 301177535
+    Date: September 30th, 2021 */-->
+
+<%-include Partials/head.ejs%> 
+
+<%-include Partials/mainnav.ejs%>  
+
+<!--Main Content-->
+<main class="container">
+  <div class="jumbotron bg-dark p-5 rounded-lg m-3">
+  <h1 class="display-4"><%= title %></h1>
+  <hr></hr>
+    <% if(title == "Home"){ %>
+  <%- include Partials/home.ejs%>
+<% } %>
+<% if(title == "About Me"){ %>
+  <%- include Partials/about.ejs%>
+<% } %>
+<% if(title == "Projects"){ %>
+  <%- include Partials/projects.ejs%>
+<% } %>
+<% if(title == "Services"){ %>
+  <%- include Partials/services.ejs%>
+<% } %>
+<% if(title == "Contact Me"){ %>
+  <%- include contact.ejs%>
+<% } %>
+    </div>
+</main>
+  <%-include Partials/footer.ejs%>  

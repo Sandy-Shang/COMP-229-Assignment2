@@ -1,0 +1,53 @@
+/*Custom CSS goes here*/
+
+#logo{
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+}
+
+#aboutme{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+margin-left:100px;
+border-color: white;
+border-radius: 2px;
+border-style: solid;
+}
+
+#contact{
+    width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+    display: inline-block;
+    margin-left:100px;
+}
+
+#services, #home {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+
+}
+
+.container{
+    color: white;
+    width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#aboutmep{
+    width:500px;
+    display: inline-block;
+    padding: 10px;
+margin-left:100px;
+}
+
+#gif{
+    width: 400px;
+    height: auto;
+float: left;    
+ margin: 0 15px 0 0;
+}

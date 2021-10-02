@@ -1,0 +1,46 @@
+<!-- File Name: contact.ejs
+    Student Name: Sandy Shang
+    StudentID: 301177535
+    Date: September 30th, 2021 */-->
+
+<%-include Partials/head.ejs%> 
+
+<%-include Partials/mainnav.ejs%>  
+
+<!--Main Content-->
+<main class="container-fluid">
+  <div class="jumbotron bg-light p-5 rounded-lg m-3" id="contact">
+  <h1 class="display-4"><%= title %></h1>
+  <hr></hr>
+  <div class="pages" id="contact">
+  <form>
+    <h5>You can reach me through this form:</h5>
+      <br>
+  <br>
+  <table>
+      <label>First Name: &nbsp; </label>
+      <input name="txtFirstName" required="required" tabindex="1" placeholder="William" style="width: 204px"><br><br>
+      <label>Last Name:&nbsp;&nbsp;&nbsp; </label>
+      <input name="txtFirstName" required="required" tabindex="2" placeholder="Shakespeare" style="width: 204px"><br>
+  <br><label>Contact Number:&nbsp;&nbsp;&nbsp; </label>
+      <input name="txtPhone" required="required" tabindex="3" placeholder="(999) 999-9999" style="width: 204px">
+      <br><br>
+  <label>Your Email:&nbsp;&nbsp;&nbsp; </label>
+  <input name="txtEmail" required="required" tabindex="4" placeholder="williamshakespeare@email.com" style="width: 250px">
+  <br>
+  <br>
+  <textarea cols="50" name="txtComments" rows="7" placeholder="Ask your questions here!" tabindex="5"></textarea><br>
+  <br>
+  <br>
+  <input name="bntSubmit" tabindex="6" type="submit" value="Sumbit Completed Form" class="button"> 
+  <input name="bntRest" tabindex="7" type="reset" value="Clear Form" class="button">
+</table>
+  </form>
+</div>
+</div>
+</main>
+<br>
+<br>
+<br>
+
+  <%-include Partials/footer.ejs%>  
