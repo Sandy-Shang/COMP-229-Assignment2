@@ -8,7 +8,7 @@
 
 #aboutme{
     width: 300px;
-    height: auto;
+
     display: inline-block;
 margin-left:100px;
 border-color: white;
@@ -26,7 +26,6 @@ border-style: solid;
 
 #services, #home {
     width: 500px;
-    height: auto;
     display: inline-block;
 
 }
@@ -37,6 +36,8 @@ border-style: solid;
 	margin-right: auto;
 	margin-left: auto;
 }
+
+
 
 #aboutmep{
     width:500px;

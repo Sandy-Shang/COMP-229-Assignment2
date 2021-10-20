@@ -1,4 +1,4 @@
-/* <   File Name: server.js
+/* <File Name: server.js
     Student Name: Sandy Shang
     StudentID: 301177535
     Date: September 30th, 2021 
@@ -8,7 +8,7 @@
 /**
  * Module dependencies.
  */
-var app = require('./app');
+var app = require('./server/config/app');
 var debug = require('debug')('comp229-portfolio:server');
 var http = require('http');
 
