@@ -21,8 +21,13 @@
     "express-session": "^1.17.1",
     "http-errors": "~1.6.3",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "jquery": "^3.6.0",
     "mongoose": "^6.0.11",
+=======
+    "jquery": "^3.5.1",
+    "mongoose": "^5.10.2",
+>>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
 =======
     "jquery": "^3.5.1",
     "mongoose": "^5.10.2",

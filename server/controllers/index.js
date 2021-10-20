@@ -1,6 +1,7 @@
 let express = require('express');
 let router = express.Router();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 module.exports.displayHomePage = (req, res, next) => {
     res.render('index', {title: 'Home'});
@@ -21,6 +22,8 @@ module.exports.displayServicesPage = (req, res, next) => {
 module.exports.displayContactPage = (req, res, next) => {
     res.render('index', { title: 'Contact'});
 =======
+=======
+>>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
 let mongoose = require('mongoose');
 let passport = require('passport');
 
@@ -161,5 +164,8 @@ module.exports.processRegisterPage = (req, res, next) => {
 module.exports.performLogout = (req, res, next) => {
     req.logout();
     res.redirect('/');
+<<<<<<< HEAD
+>>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
+=======
 >>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
 }

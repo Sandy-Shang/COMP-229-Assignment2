@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* <File Name: server.js
     Student Name: Sandy Shang
     StudentID: 301177535
@@ -8,10 +9,14 @@
 =======
 #!/usr/bin/env node
 >>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
+=======
+#!/usr/bin/env node
+>>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
 
 /**
  * Module dependencies.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 var app = require('./server/config/app');
 var debug = require('debug')('comp229-portfolio:server');
@@ -89,6 +94,8 @@ function onError(error) {
 /**
  * Event listener for HTTP server "listening" event.
  */
+=======
+>>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
 =======
 >>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
 
