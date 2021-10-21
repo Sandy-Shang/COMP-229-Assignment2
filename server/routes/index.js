@@ -1,42 +1,40 @@
-/* <   File Name: index.js
-    Student Name: Sandy Shang
-    StudentID: 301177535
-    Date: September 30th, 2021 */
-    
-var express = require('express');
-var router = express.Router();
+let express = require('express');
+let router = express.Router();
+
+let indexController = require('../controllers/index');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home' });
-});
+router.get('/', indexController.displayHomePage);
 
 /* GET home page. */
-router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home' });
-});
+router.get('/home',  indexController.displayHomePage);
+
 
 /* GET About page. */
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
-});
+router.get('/about', indexController.displayAboutPage);
 
 /* GET Projects page. */
-router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Projects' });
-});
+router.get('/projects', indexController.displayProjectPage);
 
 /* GET Services page. */
-router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
-});
+router.get('/services', indexController.displayServicesPage);
 
 /* GET Contact page. */
-router.get('/contact', function(req, res, next) {
-  res.render('contact.ejs', { title: 'Contact Me' });
-});
+router.get('/contact', indexController.displayContactPage);
 
+/* GET Route for displaying the Login Page*/
+router.get('/login', indexController.displayLoginPage);
 
+/* POST Route for processing the Login Page*/
+router.post('/login', indexController.processLoginPage);
 
+/* GET Route for displaying the Register Page*/
+router.get('/register', indexController.displayRegisterPage);
+
+/* POST Route for processing the Register Page*/
+router.post('/register', indexController.processRegisterPage);
+
+/* GET Route to perform UserLogout*/
+router.get('/logout', indexController.performLogout);
 
 module.exports = router;

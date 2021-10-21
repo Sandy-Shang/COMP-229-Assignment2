@@ -2,8 +2,7 @@ let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 // connect to our Book Model
 let Book = require('../models/books');
 
@@ -116,9 +115,7 @@ router.get('/delete/:id', (req, res, next) =>{
     })
 });
 
-=======
-=======
->>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
+
 let passport = require('passport');
 
 
@@ -152,9 +149,6 @@ router.post('/edit/:id', bookController.processEditPage);
 
 /* GET Route to perform Deleteion - DELETE Operation */
 router.get('/delete/:id', requireAuth, bookController.performDelete);
-<<<<<<< HEAD
->>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
-=======
->>>>>>> bb4d35f27cd3671c66e3481c237deb670972e209
+
 
 module.exports = router;
